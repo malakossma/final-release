@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Impact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="toTopBtn" style="display:none; position:fixed; bottom:20px; right:20px;">⬆</button>
+<script>
+const toTopBtn = document.getElementById("toTopBtn");
+window.addEventListener("scroll", () => {
+  toTopBtn.style.display = window.scrollY > 300 ? "block" : "none";
+});
+toTopBtn.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+</script>
+    <header class="navbar">
+        <div class="nav-container">
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#About">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            </div>
+        </div>
+    </header>
+    <section id="home" class="main-section">
+        <div class="main-content">
+            <h2> <i>The Impact Of AI On Some Fields </i></h2>
+            <p>Artificial Intelligence (AI) is becoming an essential part of modern life.</p>
+            <p>It helps improve many fields such as healthcare, space, education, and psychology by making tasks faster, more accurate, and more efficient.</p>
+            <p>AI continues to shape our future with new smart solutions that support humans and make daily life better.</p>
+        </div>
+        <div class="main-image">
+            <img src="https://i.ibb.co/ycdSRKrM/download.png" alt="AI Technology">
+        </div>
+    </section>
+    <section  class="comparison-section">
+        <h2>General Comparison Before AI vs. After AI</h2>
+        <div class="table-container">
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Before using AI</th>
+                        <th>After using AI</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Most tasks were manual and slow.</td>
+                        <td>Many tasks are automated, faster, and more efficient</td>
+                    </tr>
+                    <tr>
+                        <td>Decisions depended mainly on human experience.</td>
+                        <td>Decisions are data-driven with AI analyzing large amounts of information.</td>
+                    </tr>
+                    <tr>
+                        <td>Higher chance of human errors.</td>
+                        <td>Reduced errors due to precision and automation</td>
+                    </tr>
+                    <tr>
+                        <td>Limited ability to handle large data.</td>
+                        <td>Can process and understand huge amounts of data instantly</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section id="services" class="applications-section">
+        <h2>Explore Impact Of AI In Some Fields</h2>
+        <div class="cards-container">
+            <div class="app-card">
+                <div class="card-image">
+                    <img src="https://www.buzzybrains.com/blog/wp-content/uploads/2025/03/ai-healthcare-apps-banner.jpg" alt="Healthcare">
+                </div>
+                <div class="card-content">
+                    <h3>Healthcare</h3>
+                    <a href="health.html" class="card-link" target="_blank">Explore More</a>
+                </div>
+            </div>
+            <div class="app-card">
+                <div class="card-image">
+                    <img src="https://cdn.vectorstock.com/i/500p/57/37/neuroscience-future-of-learning-futuristic-vector-47545737.jpg" alt="Education">
+                </div>
+                <div class="card-content">
+                    <h3>Education</h3>
+                    <a href="education.html" class="card-link" target="_blank">Explore More</a>
+                </div>
+            </div>
+            <div class="app-card">
+                <div class="card-image">
+                    <img src="https://www.technovera.com/wp-content/uploads/2025/09/ai-space-exploration.webp" alt="Space">
+                </div>
+                <div class="card-content">
+                    <h3>Space</h3>
+                    <a href="space.html" class="card-link" target="_blank">Explore More</a>
+                </div>
+            </div>
+            <div class="app-card">
+                <div class="card-image">
+                    <img src="https://itbrief.com.au/uploads/story/2022/06/28/GettyImages-1331059443.webp" alt="Psychology">
+                </div>
+                <div class="card-content">
+                    <h3>Psychology</h3>
+                    <a href="psy.html" class="card-link" target="_blank">Explore More</a>
+                </div>
+            </div>
+              <div class="app-card">
+                <div class="card-image">
+                    <img src="https://www.shutterstock.com/image-vector/artificial-intelligence-technology-concept-abstract-600nw-2667075759.jpg" >
+                </div>
+                <div class="card-content">
+                    <h3>The Future Of AI & FAQ</h3>
+                    <a href="index.html" class="card-link" target="_blank">Explore More</a>
+                </div>
+            </div>
+        </div>
+    </section >
+     <div class="form-wrapper">
+    <div class="contact-container" id="contact">
+    <h2 >Contact Us</h2>
+    <form class="contact-form" >
+        <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name here">
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required placeholder="example@domain.com">
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Write your message..."></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+</div>
+</div>
+    <footer  id="About">
+        <div class="footer-container">
+            <div  class="footer-col" id="a/bout">
+                <h3>About Us</h3>
+                <p>We are an AI-powered platform dedicated to providing intelligent solutions in Healthcare, Education, Space, and Psychology to shape a smarter future.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Info</h3>
+                <p>Email: AI@gmail.com</p>
+                <p>Phone: +201068414683</p>
+                <p>Location: Fayoum, Egypt</p>
+            </div>
+            <div class="footer-col">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/name" target="_blank" >
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Logo_de_Facebook.png/1200px-Logo_de_Facebook.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com/name" target="_blank" >
+                        <img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-instagram-icon-png-image_6315974.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.linkedin.com/in/name" target="_blank" >
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1024px-LinkedIn_icon.svg.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://twitter.com/yourPageName" target="_blank" >
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Twitter_new_X_logo.png" alt="Twitter">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 All Rights Reserved | AI Project Website</p>
+        </div>
+    </footer>
+</body>
+</html>
